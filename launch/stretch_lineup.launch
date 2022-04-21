@@ -1,0 +1,5 @@
+<launch>
+    <node name="stretch_lineup" pkg="stretch_lineup" type="stretch_lineup_node" output="screen" respawn="true">
+        <rosparam file="$(find stretch_lineup)/config/params.yaml" command="load"/>
+    </node>
+</launch>
