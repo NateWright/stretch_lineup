@@ -1,5 +1,5 @@
-point_topic: "/stretch_pc/centerPoint"
+point_topic: "/stretch_gui/lineUpPoint"
 cmd_vel: "/stretch_diff_drive_controller/cmd_vel"
 reference_frame_tf: "map"
 base_link_tf: "base_link"
-offset: 0.0
+offset: -1.0
